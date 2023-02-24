@@ -10,7 +10,7 @@ help:	## Print instructions for create a web site.
 	cat README.md
 package: ## Target named package which produces a file awesome-website.zip
 	hugo
-	zip awesome-website.zip awesome-api dist/ 
+	zip awesome-website.zip awesome-api dist/
 lint: ## The target lint should be updated to lint the files README.md and DEPLOY.md with markdownlint
 	markdownlint "*.md"
 unit-tests: ## unit tests
